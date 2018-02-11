@@ -1,0 +1,41 @@
+{
+  "name": "smartselling/fapi-client",
+  "description": "Library for accessing FAPI API.",
+  "license": "proprietary",
+  "authors": [
+	{
+	  "name": "Jiří Slischka",
+	  "email": "slischkaj@gmail.com"
+	}
+  ],
+  "require": {
+	"php": ">=5.6",
+	"smartselling/http-client": "^1.0",
+	"smartselling/parameters": "^1.1"
+  },
+  "require-dev": {
+	"nette/tester": "^1.5",
+	"nette/di": "^2.3",
+	"nette/utils": "^2.3",
+	"guzzlehttp/guzzle": "^6.0",
+	"tracy/tracy": "^2.4"
+  },
+  "suggest": {
+	"nette/di": "to use class FapiClientExtension"
+  },
+  "autoload": {
+	"psr-0": {
+	  "SmartSelling\\FapiClient\\": "src/"
+	}
+  },
+  "repositories": [
+	{
+	  "type": "vcs",
+	  "url": "ssh://git@gitlab.firma20.cz:9022/smartselling/parameters.git"
+	},
+	{
+	  "type": "vcs",
+	  "url": "ssh://git@gitlab.firma20.cz:9022/smartselling/http-client.git"
+	}
+  ]
+}

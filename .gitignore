@@ -1,0 +1,4 @@
+/vendor/
+/tests/locks/
+/tests/php.ini
+/.idea
