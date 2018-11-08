@@ -1,0 +1,15 @@
+{
+  "name": "smartselling/fapi-client",
+  "description": "FAPI API Client",
+  "type": "library",
+  "authors": [
+	{
+	  "name": "Jiří Slischka",
+	  "email": "slischkaj@gmail.com"
+	}
+  ],
+  "minimum-stability": "stable",
+  "require": {
+	"php": "^5.3.3 || ^7.0"
+  }
+}
