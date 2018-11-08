@@ -18,5 +18,5 @@ $fapi->invoice->search(['client' => 123]); // returns invoices of client #123
 $fapi->client->searchOne(['email' => 'johndoe@example.com']); // returns client by email
 ```
 
-##Documentation
+## Documentation
 You can find API documentation [here](https://web.fapi.cz/api-doc/index.html]).
