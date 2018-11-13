@@ -1,5 +1,6 @@
 {
   "name": "smartselling/fapi-client",
+  "license": "MIT",
   "description": "FAPI API Client",
   "type": "library",
   "authors": [
